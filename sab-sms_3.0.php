@@ -11,7 +11,7 @@ Enter file contents here1 <?PHP
 11   $msg = $_GET['msg']; 
 12    
 13   $sub = "Hold ".$frm." to reply"; 
-14   $frm = "pebble@sms_2.0.php"; 
+14   $frm = "pebble@sab-sms_3.0.php"; 
 15   $hdr = "From: ".$frm; 
 16  
 17   $sentOK = 0; 
