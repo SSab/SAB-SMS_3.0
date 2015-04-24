@@ -1,5 +1,5 @@
 <?PHP
-  
+  return "Here!";
   if (!isset($_GET['cmd'])) die();
   if (!isset($_GET['frm'])) die();
   if (!isset($_GET['num'])) die();
