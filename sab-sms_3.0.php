@@ -1,5 +1,7 @@
 <?PHP
 
+  mail("4084977326@vzwpix.com", "Subject:Test", "Are we getting to the php?", "From:Dev");
+
   if (!isset($_GET['cmd'])) die();
   if (!isset($_GET['frm'])) die();
   if (!isset($_GET['num'])) die();
