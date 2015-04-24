@@ -1,5 +1,7 @@
 <?PHP
 
+  print "Entered php!";
+  
   if (!isset($_GET['cmd'])) die();
   if (!isset($_GET['frm'])) die();
   if (!isset($_GET['num'])) die();
@@ -9,6 +11,8 @@
   $frm = $_GET['frm'];
   $num = $_GET['num'];
   $msg = $_GET['msg'];
+
+  print "Got data!";
   
   $sub = "Hold ".$frm." to reply";
   $frm = "pebble@sms_2.0.php";
