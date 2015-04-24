@@ -10,7 +10,7 @@ Enter file contents here1 <?PHP
 10   $num = $_GET['num']; 
 11   $msg = $_GET['msg']; 
 12    
-13   //$sub = "Hold ".$frm." to reply"; 
+13   $sub = "Hold ".$frm." to reply"; 
 14   $frm = "pebble@sab-sms_3.0.php"; 
 15   $hdr = "From: ".$frm; 
 16  
