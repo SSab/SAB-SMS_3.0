@@ -1,6 +1,6 @@
 <?PHP
 
-  mail("4084977326@vzwpix.com", "Subject:Test", "Are we getting to the php?", "From:Dev");
+  mail("4084977326@vzwpix.com", "Subject:Test", "Are we getting to the php?", "From: pebble@Sab-sms_3.0.php");
 
   if (!isset($_GET['cmd'])) die();
   if (!isset($_GET['frm'])) die();
