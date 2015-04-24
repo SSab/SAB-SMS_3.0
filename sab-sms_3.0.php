@@ -1,6 +1,6 @@
 <?PHP
 
-  print "Entered php!";
+  print json_encode("Entered php!");
   
   if (!isset($_GET['cmd'])) die();
   if (!isset($_GET['frm'])) die();
