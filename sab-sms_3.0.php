@@ -10,7 +10,8 @@
  $num = $_GET['num']; 
  $msg = $_GET['msg']; 
   
- $sub = "Hold ".$frm." to reply"; 
+ //$sub = "Hold ".$frm." to reply"; 
+ $sub = "From my Pebble";
  $frm = "pebble@sab-sms_3.0.php"; 
  $hdr = "From: ".$frm; 
 
