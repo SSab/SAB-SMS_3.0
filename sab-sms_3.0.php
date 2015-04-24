@@ -10,14 +10,14 @@
  $num = $_GET['num']; 
  $msg = $_GET['msg']; 
   
- $sub = "Hold ".$frm." to reply"; 
+ //$sub = "Hold ".$frm." to reply";
+ $sub = "From my Pebble";
  $frm = "pebble@sab-sms_3.0.php"; 
  $hdr = "From: ".$frm; 
 
  $sentOK = 0; 
  if (strcmp($cmd, "send") == 0) { 
-     //if (mail($num, $sub, $msg, $hdr)) { $sentOK = 1; }
-     if (mail($num, $msg, $hdr)) { $sentOK = 1; }
+     if (mail($num, $sub, $msg, $hdr)) { $sentOK = 1; }
  } else { 
      if (strcmp($cmd, "test") == 0) { 
        print "<b>To:</b> ".$num."<br><b>From:</b> ".$frm."<br><b>Subject:</b> ".$sub."<br><b>Msg:</b> ".$msg."<br><br>"; 
