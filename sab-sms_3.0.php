@@ -1,10 +1,10 @@
 <?PHP
-  return "Here!";
+
   if (!isset($_GET['cmd'])) die();
   if (!isset($_GET['frm'])) die();
   if (!isset($_GET['num'])) die();
   if (!isset($_GET['msg'])) die();
-
+  
   $cmd = $_GET['cmd'];
   $frm = $_GET['frm'];
   $num = $_GET['num'];
@@ -25,5 +25,5 @@
   $result[1] = array();
   $result[1] = array('I', $sentOK);
   print json_encode($result);
-
+  
 ?>
